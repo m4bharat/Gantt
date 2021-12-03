@@ -1,0 +1,7 @@
+<h3>Live Reload</h3>
+<button (click)="changeData()">New Data</button>
+
+<div style="height:300px;">
+    <ng-gantt [options]="editorOptions" [data]="data" #editor></ng-gantt>
+</div>
+<router-outlet></router-outlet>
